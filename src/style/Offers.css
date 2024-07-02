@@ -1,0 +1,15 @@
+@import '../App.css';
+
+
+.offerSection {
+    display: flex;
+    justify-content: center;
+    gap: 3vmax;
+    padding: 1vmax;
+    background-color: var(--bg-color);
+}
+
+
+.offerSection img:hover{
+    box-shadow: 5px 5px 10px rgb(50, 50, 50);
+}

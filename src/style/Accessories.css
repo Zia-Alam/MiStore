@@ -1,0 +1,30 @@
+.items{    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmax;
+   
+    width: 60vmax;
+    
+ 
+}
+.accessories{
+    
+display: flex;
+justify-content: space-around;
+width: 70vmax;
+margin: auto;
+gap: 1vmax;
+}
+
+
+.cover:hover {
+    box-shadow: 6px 6px 10px  rgb(208, 208, 208);
+   
+}
+
+.cover img {
+
+    height: 100%;
+    width: 20vmax;
+    margin-left: 0.7vmax;
+}

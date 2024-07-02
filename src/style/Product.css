@@ -1,0 +1,30 @@
+.prod_card {
+    background-color: white;
+    transition: all 0.7s;
+}
+
+.text_area {
+    padding: 20px;
+}
+
+.text_area div:nth-child(2) {
+    display: flex;
+    gap: 2vmax;
+}
+
+.text_area div:nth-child(2) p:nth-child(2) {
+color: orangered;
+font-weight: 500;
+}
+
+
+.prod_card  img {
+    height: 18vmax;
+    width: 40vmax;
+}
+
+.prod_card:hover {
+    box-shadow: 5px 5px 10px rgb(170, 170, 170);
+    transform: translateY(-10px);
+    transition: all 0.7s;
+}

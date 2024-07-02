@@ -1,0 +1,8 @@
+.prod_area {
+    display: flex;
+    justify-content: center;
+    width: 90vmax;
+    padding: 20px;
+    gap: 1vmax;
+    margin: auto;
+}

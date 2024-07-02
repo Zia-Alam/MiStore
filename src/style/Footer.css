@@ -1,0 +1,103 @@
+.pre_footer {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 30px;
+    color: gray;
+    fill: gray;
+}
+
+.pre_footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pf_card {
+    cursor: pointer;
+}
+
+.pf_card svg {
+    fill: gray ;
+}
+
+.pf_card:hover  svg {
+    fill: black;
+}
+
+.pf_card:hover  {
+    color: black; 
+    fill: black; 
+}
+/* .pre_footer > div > div:first-child {
+    background-color: rgb(240, 232, 2);
+    
+} */
+
+.pre_footer > div > div:last-child{
+    margin-left: 30px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.pre_footer > div > div:last-child > p:first-child {
+    
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+.pre_footer > div > div:last-child > p:last-child {
+
+    font-weight: 100;
+    font-size: 17px;
+}
+
+
+
+
+/* Setting Pre Footer 2 */
+
+.pre_footer_2 {
+    width: 90vmax;
+    margin: auto;
+    display: flex;
+    height: 8vmax;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.social_icons {
+    display: flex;
+    gap: 40px;
+}
+
+.social_icons svg {
+    fill: rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.social_icons svg:hover {
+    fill: gray;
+}
+
+.foot_email {
+    border: 0.3px solid gray;
+    background-color: white;
+}
+
+.foot_email input {
+    width: 92%;
+    height: 2.5vmax;
+    border: none;
+    outline: none;
+}
+
+

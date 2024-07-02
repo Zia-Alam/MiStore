@@ -1,0 +1,26 @@
+.nav_card {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_card img {
+    height: 170px;
+    width: 170px;
+}
+
+.nav_card .nav_card_name {
+    font-weight: bold;
+}
+
+.nav_card div p:last-child {
+    color: orangered;
+}

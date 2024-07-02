@@ -1,0 +1,54 @@
+.main_foot_div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: rgb(43, 43, 43);
+    color: rgb(144, 144, 144);
+    justify-content: space-around;
+    padding: 4vmax;
+
+}
+
+
+.foot_link a {
+    margin: 0.2vmax 0vmax;
+    color: rgb(144, 144, 144);
+    text-decoration: none;
+}
+.foot_link {
+   display: flex;
+   flex-direction: column;
+   width: 12vmax;
+}
+.foot_link a:hover {
+    color: white;
+}
+.main_foot_div p:hover {
+    color: white;
+    margin-bottom: 1vmax;
+}
+.main_foot_div p {
+    font-size: 18px;
+}
+
+.chat_btn p {font-size: 12px;}
+
+.chat_btn {
+    width: 11vmax;
+}
+
+.chat_btn button {
+    padding: 0.8vmax;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 0.3px solid white;
+    transition: all 0.8s;
+}
+.chat_btn button:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.8s;
+}
+
+

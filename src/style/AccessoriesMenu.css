@@ -1,0 +1,21 @@
+@import '../App.css';
+
+.accessory {
+    display: flex;
+    justify-content: center;
+    padding: 1.5vmax;
+    gap: 2.5vmax;
+    color: black;
+    background-color: var(--bg-color);
+    height: 5vmax;
+}
+
+a { 
+    color: black;
+}
+.accessory  a:hover {
+border-bottom: 1px solid orangered;
+text-decoration: none;
+padding-bottom: 4px;
+color: orangered;
+}

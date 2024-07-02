@@ -1,0 +1,22 @@
+.sub_items img {
+    width: 15vmax;
+    height: 15vmax;
+}
+
+.sub_items {
+    background-color: white;
+    text-align: center;
+    
+    
+}
+.sub_items > p {
+    font-weight: 500;
+    font-size: 10px;
+}
+.sub_items > p:nth-of-type(2) {
+    color: orangered;
+    font-size: 15px;
+}
+.sub_items:hover {
+    box-shadow: 6px 6px 10px gainsboro;
+}

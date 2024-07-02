@@ -1,0 +1,15 @@
+@import '../App.css';
+
+
+.pd { 
+    /* width: 100vmax; */
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.pd  img:hover {
+box-shadow: 6px 6px 10px  gainsboro;
+}
